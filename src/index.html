@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery-3.1.1.js"></script>
+</head>
+<body>
+    <div ng-app="myApp" ng-controller="myCtrl">
+    
+    <ul>
+        <li ng-repeat="item in goods">
+            <img src="" ng-src="{{item.img}}" alt="">
+            <h4>{{item.name}}</h4>
+            <div ng-if="item.price < 70">
+                <p>￥：{{item.price}}</p>
+                <div class="Salespromotion">促销</div>
+            </div>
+            <div ng-if="item.price >= 70">
+                <p>￥：{{item.price}}</p>
+            </div>
+        </li>
+    </ul> 
+    </div>
+</body>
+</html>

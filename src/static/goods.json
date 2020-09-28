@@ -1,0 +1,10 @@
+[
+    {"name":"打招呼","price":100,"img":"./static/images/book1.jpg"},
+    {"name":"当动物有了钱","price":65,"img":"./static/images/book2.jpg"},
+    {"name":"一生自在","price":75,"img":"./static/images/book3.jpg"},
+    {"name":"浮生六记","price":210,"img":"./static/images/book4.jpg"},
+    {"name":"我不乱发脾气","price":40,"img":"./static/images/book5.jpg"},
+    {"name":"小王子","price":300,"img":"./static/images/book6.jpg"},
+    {"name":"老狼老狼几点了","price":400,"img":"./static/images/book7.jpg"},
+    {"name":"唐诗三百首","price":50,"img":"./static/images/book8.jpg"}
+]
