@@ -86,5 +86,5 @@
 >>```bash
 >>npm install --save-dev angular@1.7
 >>```
->>6）查看package.json文件中devDependencies属性下是否有angular，有则安装成功
+>>6）查看package.json文件中devDependencies属性下是否有angular，有则安装成功  
 >>7）测试angular可查看文档进行编写测试[参考文档](AngularJS参考手册.CHM)
